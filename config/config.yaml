@@ -1,0 +1,19 @@
+# config/config.yaml
+api:
+  bank_api_url: "https://api.example-bank.com"
+  api_key: "YOUR_API_KEY_HERE"
+
+ml:
+  model_path: "models/"
+  training_data_path: "data/training_data/"
+
+nlp:
+  intent_model: "models/intent_model.pkl"
+  entity_model: "models/entity_model.pkl"
+
+cv:
+  ocr_model: "models/ocr_model.pkl"
+
+chatbot:
+  name: "FinanceBot"
+  greeting: "Hello! I'm your personal finance assistant. How can I help you today?"
